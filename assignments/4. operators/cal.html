@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cal</title>
+</head>
+
+<body>
+
+    <script>
+        var operator = prompt("Enter the functionality +,/,*,-");
+        if (operator === "+") {
+            var firstNum = prompt("Enter 1st Number");
+            var secondNum = prompt("Enter 2nd Number");
+            if(secondNum <= firstNum) {
+                alert("Number Two is larger then Number one");
+            }
+            var result = Number(firstNum) + Number(secondNum);
+            alert(result);
+        }
+        else if (operator === "*") {
+            var firstNum = prompt("Enter 1st Number");
+            var secondNum = prompt("Enter 2nd Number");
+            if(secondNum <= firstNum) {
+                alert("Number Two is larger then Number one");
+            }
+            var result = Number(firstNum) * Number(secondNum);
+            alert(result);
+        }
+        else if (operator === "-") {
+            var firstNum = prompt("Enter 1st Number");
+            var secondNum = prompt("Enter 2nd Number");
+            if(secondNum <= firstNum) {
+                alert("Number Two is larger then Number one");
+            }
+            var result = Number(firstNum) - Number(secondNum);
+            alert(result);
+        }
+        else {
+            var firstNum = prompt("Enter 1st Number");
+            var secondNum = prompt("Enter 2nd Number");
+            if(secondNum <= firstNum) {
+                alert("Number Two is larger then Number one");
+            }
+            var result = Number(firstNum) / Number(secondNum);
+            alert(result);
+
+        }
+
+
+    </script>
+</body>
+
+</html>

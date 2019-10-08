@@ -40,6 +40,11 @@ for(var i = 0 ; i < 20 ; i++){
 ```
 
 3. 🎖Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result in console (e.g. "2 * 9 = 18").
+```js
+for(var i = 0 ; i<=10 ; i++) {
+    console.log(i + " * 9 = " +  i * 9);
+}
+
 
 4. 🎖Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
 (e.g.
@@ -49,12 +54,19 @@ for(var i = 0 ; i < 20 ; i++){
 "1 * 4 = 4"
 .... for all 100 results)
 
+for(var i = 1 ; i < 10 ; i++){
+    for(var j = 1 ; j < 10 ; j++){
+        console.log(i*j);
+    }
+}
+
 5. 🎖Show the following output using one loop.
 ```js
 // 1, 2, 3, 4, 5
 // 6, 7, 8, 9, 10
 
 // Your code goes here
+```js
 for(var i = 1; i < 10 ; i++){
     console.log(i);
 }
@@ -65,7 +77,7 @@ for(var i = 1; i < 10 ; i++){
 // Your code goes here
 var sum = 0;
 var i = 1;
-while(i < 20){
+while(i <= 20){
     sum += i;
     i++;
 }
@@ -76,4 +88,11 @@ alert(sum);
 7. 🎖Use a while loop to print out the even number from 1 to 20. (You'll need Modulus for this. And an IF Statement.)
 ```js
 // Your code goes here
+var i = 1;
+while(i <= 20){
+    i++;
+    if(i % 2 == 0){
+        console.log(i + " is even!!!")
+    }
+}
 ```

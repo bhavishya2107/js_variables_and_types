@@ -13,6 +13,15 @@ const ACCESSORY_PRICE = 9.99;
 
 var bank_balance = 303.91;
 var amount = 0;
+
+calculateTax => (amount) {
+
+}
+
+formatAmount => () {
+
+}
+
 // your code goes here
 ```
  ⛑ Answer of the above will `$334.76`.
@@ -20,6 +29,14 @@ var amount = 0;
 2. 🎖 Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen using `alert` (e.g. "2 is even").
 ```js
 // your code goes here
+for(var i = 0 ; i < 20 ; i++){
+    if(i % 2 == 0){
+        alert(i + " is Even");
+    }
+    else{
+        alert(i + " is Odd")
+    }
+}
 ```
 
 3. 🎖Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result in console (e.g. "2 * 9 = 18").
@@ -38,11 +55,22 @@ var amount = 0;
 // 6, 7, 8, 9, 10
 
 // Your code goes here
+for(var i = 1; i < 10 ; i++){
+    console.log(i);
+}
 ```
 
 6. 🎖Use a while loop to add up the numbers 1 to 20.
 ```js
 // Your code goes here
+var sum = 0;
+var i = 1;
+while(i < 20){
+    sum += i;
+    i++;
+}
+alert(sum);
+
 ```
 
 7. 🎖Use a while loop to print out the even number from 1 to 20. (You'll need Modulus for this. And an IF Statement.)

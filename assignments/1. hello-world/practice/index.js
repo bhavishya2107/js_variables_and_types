@@ -21,3 +21,6 @@
 var city = "Dharamshala";
 var country = "India";
 // Alert the above variable like "Dharamshala, India";
+
+var yourName = prompt("Enter your name");
+alert ("Good Morning " + yourName);
